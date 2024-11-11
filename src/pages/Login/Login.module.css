@@ -1,0 +1,4 @@
+.error {
+    color: var(--primary-third-color);
+    padding: 10px;
+}

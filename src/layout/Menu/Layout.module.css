@@ -1,0 +1,56 @@
+.navbar {
+    backdrop-filter: blur(40px);
+    background: rgba(18, 24, 41, 0.8);
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    margin: 16px 12px;
+    font-weight: 600;
+    font-size: 16px;
+
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--menu-color);
+
+    text-decoration:  none;
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+.link span {
+    background-color: var(--primary-second-color);
+    width: 24px;
+    height: 24px;
+
+    font-size: 14px;
+
+    border-radius: 50%;
+    text-align: center;
+
+    color: var(--text-color);
+}
+
+.active {
+    color: var(--menu-active-color);       
+}
+
+.outlet {
+    padding: 50px 120px;    
+}
+
+.loginedUser {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}

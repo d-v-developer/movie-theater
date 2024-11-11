@@ -1,0 +1,6 @@
+.header {
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--text-color);
+    margin: 0px;
+}

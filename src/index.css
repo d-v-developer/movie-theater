@@ -1,0 +1,21 @@
+:root {
+  --font-family: "Noto Sans", sans-serif;
+  --primary-color: #37D8A7;
+  --primary-second-color: #7B6EF6;
+  --primary-third-color: #FFAD49;
+  --background-color: #121829;
+  --menu-active-color: #FFFFFF;
+  --menu-color: #A8AEBF;
+  --text-color: #EBEEF5;
+  --text-second-color: #8E95A9;
+  --input-border-color: #323b54;
+  --placeholder-color: #475069;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--background-color);
+  font-family: var(--font-family);
+}

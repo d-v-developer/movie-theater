@@ -1,0 +1,12 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin-top: 40px;
+}
+
+.error {
+    color: var(--text-color);
+    /* background-color: var(--primary-third-color); */
+    /* padding: 20px; */
+}

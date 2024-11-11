@@ -1,0 +1,13 @@
+.button {
+    color: var(--menu-active-color);
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 12px;
+    background: var(--primary-second-color);
+    font-size: 16px;
+    width: auto;
+    align-self: flex-start;
+    height: 64px;
+}
